@@ -1,0 +1,16 @@
+# créé le git 
+cd racine
+git init 
+#ajouter récursivement tous les fichiers avant de commiter
+git add .
+
+#commiter:
+git commit -m "ce qui a changé"
+
+# créer une nouvelle origine de branche
+git remote add origin git@github.com:damientam/premiere.git
+
+#envoyer le repertoire local sur github:
+git push origin master
+
+
